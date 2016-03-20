@@ -2,39 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ElricHuang&#39;s Blog</title>
-    <description>描述描述
+    <description>黄伟明（ElricHuang）的博客，分享微信，PHP（Codeigniter，Symfony），HTML5，Git，MySQL，Linux，iOS，Android，Javascript，C/C++等经验。
 </description>
-    <link>https://elrichuang.github.io/</link>
-    <atom:link href="https://elrichuang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Mar 2016 12:46:21 +0800</pubDate>
-    <lastBuildDate>Thu, 17 Mar 2016 12:46:21 +0800</lastBuildDate>
+    <link>http://elrichuang.github.io/</link>
+    <atom:link href="http://elrichuang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 20 Mar 2016 18:09:50 +0800</pubDate>
+    <lastBuildDate>Sun, 20 Mar 2016 18:09:50 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>怎样在Github上建立个人网站</title>
+        <description>&lt;p&gt;按照下面的步骤你就可以像我这样在Github上拥有自己的个人网站了。&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;你需要有一个Github账号。没有的话&lt;a href=&quot;https://github.com/join&quot;&gt;点击这里注册&lt;/a&gt;；&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/new&quot;&gt;建立一个新的仓库&lt;/a&gt;；&lt;/li&gt;
+  &lt;li&gt;仓库名称必须为&lt;code class=&quot;highlighter-rouge&quot;&gt;你的github用户名&lt;/code&gt;.github.io；&lt;img src=&quot;https://pages.github.com/images/user-repo.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;使用&lt;a href=&quot;https://desktop.github.com/&quot;&gt;Github桌面版&lt;/a&gt;或者&lt;a href=&quot;https://www.sourcetreeapp.com/&quot;&gt;SourceTree&lt;/a&gt;将刚才建好的仓库克隆到本地；&lt;img src=&quot;https://pages.github.com/images/setup-in-desktop.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;在本地的仓库文件夹里创建一个index.html文件，内容写上&lt;code class=&quot;highlighter-rouge&quot;&gt;Hello World&lt;/code&gt;之类的文字；&lt;/li&gt;
+  &lt;li&gt;将文件提交并推送到Github；&lt;/li&gt;
+  &lt;li&gt;在浏览器打开&lt;code class=&quot;highlighter-rouge&quot;&gt;你的github用户名.github.io&lt;/code&gt;就能看到你刚提交的页面了。&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
+&lt;h3 id=&quot;githubwordpress&quot;&gt;注意：Github上的空间只支持静态网页内容，不支持WordPress之类使用动态语言编写的程序。&lt;/h3&gt;
 </description>
-        <pubDate>Thu, 17 Mar 2016 12:42:59 +0800</pubDate>
-        <link>https://elrichuang.github.io/jekyll/update/2016/03/17/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://elrichuang.github.io/jekyll/update/2016/03/17/welcome-to-jekyll.html</guid>
+        <pubDate>Sun, 20 Mar 2016 17:30:27 +0800</pubDate>
+        <link>http://elrichuang.github.io/github/2016/03/20/how-to-generate-a-site-on-github.html</link>
+        <guid isPermaLink="true">http://elrichuang.github.io/github/2016/03/20/how-to-generate-a-site-on-github.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>github</category>
         
       </item>
     
