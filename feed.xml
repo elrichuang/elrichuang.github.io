@@ -6,9 +6,69 @@
 </description>
     <link>http://elrichuang.github.io/</link>
     <atom:link href="http://elrichuang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Mar 2016 18:09:50 +0800</pubDate>
-    <lastBuildDate>Sun, 20 Mar 2016 18:09:50 +0800</lastBuildDate>
+    <pubDate>Sun, 20 Mar 2016 23:59:19 +0800</pubDate>
+    <lastBuildDate>Sun, 20 Mar 2016 23:59:19 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>使用Jekyll写Blog</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://jekyllrb.com/img/logo-2x.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;是&lt;code class=&quot;highlighter-rouge&quot;&gt;Github&lt;/code&gt;官方出品的开源静态网站构建工具。使用它可以将你写的&lt;code class=&quot;highlighter-rouge&quot;&gt;Markdown&lt;/code&gt;文本文件转换为一个静态网站或者博客。它主要是为了方便程序员构建基于&lt;code class=&quot;highlighter-rouge&quot;&gt;Github Pages&lt;/code&gt;服务的静态网站而出现的。&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;安装&lt;/h3&gt;
+
+&lt;p&gt;以博主使用的&lt;code class=&quot;highlighter-rouge&quot;&gt;Mac OS X 10.11&lt;/code&gt;为例：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;是基于&lt;code class=&quot;highlighter-rouge&quot;&gt;Ruby&lt;/code&gt;开发的，需要首先安装&lt;code class=&quot;highlighter-rouge&quot;&gt;Ruby&lt;/code&gt;。幸运的是&lt;code class=&quot;highlighter-rouge&quot;&gt;Mac OS X&lt;/code&gt;已经内置了&lt;code class=&quot;highlighter-rouge&quot;&gt;Ruby 2&lt;/code&gt;，因此不用另外安装。&lt;/li&gt;
+  &lt;li&gt;在&lt;code class=&quot;highlighter-rouge&quot;&gt;Mac&lt;/code&gt;的&lt;code class=&quot;highlighter-rouge&quot;&gt;终端&lt;/code&gt;运行命令：&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo gem install -n /usr/local/bin jekyll&lt;/code&gt;，即会自动安装完成&lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;。&lt;/li&gt;
+  &lt;li&gt;运行命令&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new blog&lt;/code&gt;，即会在当前文件夹建立一个新的blog文件夹，blog文件夹就是&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt;项目文件夹。&lt;/li&gt;
+  &lt;li&gt;运行命令&lt;code class=&quot;highlighter-rouge&quot;&gt;cd blog&lt;/code&gt;进入项目文件夹。&lt;/li&gt;
+  &lt;li&gt;运行命令&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;运行内置Web服务器程序，在浏览器打开&lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt;就会看到网站内容了。&lt;img src=&quot;/img/jekyll-home.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl+C&lt;/code&gt;停止Jekyll Web服务器运行。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll项目文件夹结构&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;Jekyll项目配置文件。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt;是页面模版的一些公共部分，例如：header，footer之类的。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;页面模版。&lt;code class=&quot;highlighter-rouge&quot;&gt;default&lt;/code&gt;是基础模版，&lt;code class=&quot;highlighter-rouge&quot;&gt;page&lt;/code&gt;是单页面模版，继承&lt;code class=&quot;highlighter-rouge&quot;&gt;default&lt;/code&gt;，例如：&lt;code class=&quot;highlighter-rouge&quot;&gt;about&lt;/code&gt;页；&lt;code class=&quot;highlighter-rouge&quot;&gt;post&lt;/code&gt;是文章内页模版，继承&lt;code class=&quot;highlighter-rouge&quot;&gt;default&lt;/code&gt;。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_post&lt;/code&gt;是文章内容。使用&lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Markdown&lt;/a&gt;语法编写，一个文件一篇博文，文件名就是url访问地址。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_sass&lt;/code&gt;是默认的模版样式设置文件。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt;这个是重点！！！这里存放最终放到网上的完整的网站文件，相当于发布网站的根目录。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;about.md&lt;/code&gt;关于页面。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;css&lt;/code&gt;保存网站css文件。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;feed.xml&lt;/code&gt;RSS订阅文件。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;网站首页模版。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/jekyll-folder-structure.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;更新内容&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;除了修改了&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;文件的内容需要重新启动&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;意外，其他页面修改了，在浏览器刷新即可看到效果。&lt;/li&gt;
+  &lt;li&gt;在本地编写完博客后，在浏览器预览没有问题了，就可以发布网站了。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;githubio&quot;&gt;发布内容到github.io&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;打开&lt;code class=&quot;highlighter-rouge&quot;&gt;终端&lt;/code&gt;，切换到Jekyll项目的目录下，运行&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt;生成发布网站内容。&lt;/li&gt;
+  &lt;li&gt;将&lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt;目录下的所有内容复制到个人网站的服务器上或者xxx.github.io的git目录中，提交推送到服务器，网站发布成功。&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Sun, 20 Mar 2016 20:45:27 +0800</pubDate>
+        <link>http://elrichuang.github.io/jekyll/2016/03/20/use-jekyll-write-blog.html</link>
+        <guid isPermaLink="true">http://elrichuang.github.io/jekyll/2016/03/20/use-jekyll-write-blog.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
     
       <item>
         <title>怎样在Github上建立个人网站</title>
