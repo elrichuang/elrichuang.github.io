@@ -27,7 +27,7 @@ categories: jekyll
 * `_layouts`页面模版。`default`是基础模版，`page`是单页面模版，继承`default`，例如：`about`页；`post`是文章内页模版，继承`default`。
 * `_post`是文章内容。使用[Markdown](https://guides.github.com/features/mastering-markdown/)语法编写，一个文件一篇博文，文件名就是url访问地址。
 * `_sass`是默认的模版样式设置文件。
-* `_site`这个是重点！！！这里存放最终放到网上的完整的网站文件，相当于发布网站的根目录。
+* `_site`这里存放生成完整的网站静态文件，用于上传到一些不支持jekyll的网站空间。Github原生支持jekyll，因此不需要管这个目录的内容。s
 * `about.md`关于页面。
 * `css`保存网站css文件。
 * `feed.xml`RSS订阅文件。
@@ -42,6 +42,9 @@ categories: jekyll
 
 ### 发布内容到github.io
 
+* 直接把这些源文件上传到xxx.github.io的git目录中就可以，Github默认支持jekyll，会直接解析成网页。
+
+#### 如果你的网站空间不支持jekyll，按照下面的步骤操作
 1. 打开`终端`，切换到Jekyll项目的目录下，运行`jekyll build`生成发布网站内容。
 2. 将`_site`目录下的所有内容复制到个人网站的服务器上或者xxx.github.io的git目录中，提交推送到服务器，网站发布成功。
 
