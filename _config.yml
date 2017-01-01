@@ -17,3 +17,7 @@ github_username:  elrichuang
 
 # Build settings
 markdown: kramdown
+
+#百度统计
+baidu_analyze_github: 2a64216c83d837769d92b90378fabbd8
+baidu_analyze_coding: 46d392d86aaefc727fc1cc0361e3604f
