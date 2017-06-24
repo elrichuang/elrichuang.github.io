@@ -11,5 +11,19 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
+  <div id="container"></div>
+  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+  <script>
+  var gitment = new Gitment({
+    //id: '页面 ID', // 可选。默认为 location.href
+    owner: 'elrichuang',
+    repo: 'elrichuang.com',
+    oauth: {
+      client_id: '0c27951feca25660a810',
+      client_secret: 'd763b67e59f51eccdb3dd83725bc4cb7bf1d5deb',
+    },
+  })
+  gitment.render('container')
+  </script>
 </article>
