@@ -2,7 +2,8 @@
 layout: post
 title:  怎样在Github上建立个人网站
 date:   2016-03-20 17:30:27 +0800
-categories: github
+categories:
+- Github
 ---
 按照下面的步骤你就可以像我这样在Github上拥有自己的个人网站了。
 

@@ -2,7 +2,8 @@
 layout: post
 title:  使用Jekyll写Blog
 date:   2016-03-20 20:45:27 +0800
-categories: jekyll
+categories:
+- Jekyll
 ---
 
 ![](https://jekyllrb.com/img/logo-2x.png)
