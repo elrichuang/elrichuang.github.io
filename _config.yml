@@ -42,12 +42,3 @@ plugins:
 
 #百度统计
 baidu_analyze_github: b00830dcaa936cae660911c5bc7f21d1
-
-sitemap:
-    filename: "/sitemap.xml"
-    exclude:
-        - "/feed.xml"
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
