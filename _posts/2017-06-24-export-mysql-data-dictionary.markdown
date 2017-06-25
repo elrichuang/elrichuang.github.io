@@ -3,7 +3,7 @@ layout: post
 title:  导出MySQL数据字典
 date:   2017-06-24 23:36:27 +0800
 categories:
-- Mysql
+- MySQL
 ---
 
 执行以下SQL，将结果导出为csv文件，然后导入Excel即可。
