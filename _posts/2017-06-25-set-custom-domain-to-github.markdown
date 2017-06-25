@@ -15,4 +15,4 @@ categories:
 | CNAME   | @       | `elrichuang.github.io` |
 | CNAME   | www     | `elrichuang.github.io` |
 
-4. 推荐使用`CNAME`方式绑定，不建议使用`A记录`的方式绑定`github.io`的`IP`，因为`IP`有可能会变。
+**推荐使用`CNAME`方式绑定，不建议使用`A记录`的方式绑定`github.io`的`IP`，因为`IP`有可能会变。**
