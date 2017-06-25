@@ -41,7 +41,7 @@ plugins:
 #   - vendor/ruby/
 
 #百度统计
-baidu_analyze_github: 2a64216c83d837769d92b90378fabbd8
+baidu_analyze_github: b00830dcaa936cae660911c5bc7f21d1
 
 sitemap:
     filename: "/sitemap.xml"
