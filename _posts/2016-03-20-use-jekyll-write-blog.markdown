@@ -17,7 +17,7 @@ categories: jekyll
 2. 在`Mac`的`终端`运行命令：`sudo gem install -n /usr/local/bin jekyll`，即会自动安装完成`Jekyll`。
 3. 运行命令`jekyll new blog`，即会在当前文件夹建立一个新的blog文件夹，blog文件夹就是`jekyll`项目文件夹。
 4. 运行命令`cd blog`进入项目文件夹。
-5. 运行命令`jekyll serve`运行内置Web服务器程序，在浏览器打开`http://localhost:4000`就会看到网站内容了。![](/img/jekyll-home.jpg)
+5. 运行命令`jekyll serve`运行内置Web服务器程序，在浏览器打开`http://localhost:4000`就会看到网站内容了。![]({{ "/assets/images/jekyll-home.jpg" | relative_url }})
 6. `Ctrl+C`停止Jekyll Web服务器运行。
 
 ### Jekyll项目文件夹结构
@@ -33,7 +33,7 @@ categories: jekyll
 * `feed.xml`RSS订阅文件。
 * `index.html`网站首页模版。
 
-![](/img/jekyll-folder-structure.jpg)
+![]({{ "/assets/images/jekyll-folder-structure.jpg" | relative_url }})
 
 ### 更新内容
 
