@@ -127,3 +127,11 @@ Api调试利器，开发网页必备。
 [官网](https://github.com/shadowsocks/ShadowsocksX-NG)
 
 Shadowsocks软件，科学上网必备。
+
+## MPlayer OSX Extended和VLC
+
+[MPlayer官网](https://mplayerosx.ch/)
+
+[VLC官网](https://www.videolan.org/index.zh.html)
+
+两大播放器，基本上没有它们无法播放的视音频格式。
